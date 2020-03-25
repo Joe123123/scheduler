@@ -34,9 +34,7 @@ export default function useApplicationData() {
     ws.onopen = function(event) {
       ws.onmessage = function(event) {
         const { type, id, interview } = JSON.parse(event.data);
-        if (type === SET_INTERVIEW) {
-          dispatch({ type, id, interview });
-        }
+        dispatch({ type, id, interview });
       };
     };
     return () => ws.close();
