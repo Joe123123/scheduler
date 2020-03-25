@@ -1,8 +1,17 @@
 # Interview Scheduler
 
+Interview Scheduler is a realtime React application that allows users to view, book and cancel interviews combining a concise API.
+
+## Screenshots
+
+!["Adding an appointment"]()
+!["Realtime updating"]()
+
 ## Setup
 
-Install dependencies with `npm install`.
+1. Install dependencies using the `npm install` command.
+2. Start the web server using the `npm start` command. The app will be served at http://localhost:8000/.
+3. Go to http://localhost:8000/ in your browser.
 
 ## Running Webpack Development Server
 
@@ -21,3 +30,13 @@ npm test
 ```sh
 npm run storybook
 ```
+
+## Stack
+
+- React
+- Express
+- WebSockets
+- Storybook
+- Jest
+- Node.JS
+- Axios
