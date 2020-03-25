@@ -4,8 +4,8 @@ Interview Scheduler is a realtime React application that allows users to view, b
 
 ## Screenshots
 
-!["Adding an appointment"]()
-!["Realtime updating"]()
+!["Adding an appointment"](https://github.com/Joe123123/scheduler/blob/master/public/images/create-appointment.gif)
+!["Realtime updating"](https://github.com/Joe123123/scheduler/blob/master/public/images/realtime-updating.gif)
 
 ## Setup
 
