@@ -12,11 +12,15 @@ Realtime updating
 
 !["Realtime updating"](https://github.com/Joe123123/scheduler/blob/master/public/images/realtime-updating.gif)
 
+## Deployment
+
+- The server is deployed on Heroku at https://scheduler-lhl-api.herokuapp.com/
+- The client is deployed on Netlify at https://practical-payne-cf51b6.netlify.com/
+
 ## Setup
 
 1. Install dependencies using the `npm install` command.
-2. Start the web server using the `npm start` command. The app will be served at http://localhost:8000/.
-3. Go to http://localhost:8000/ in your browser.
+2. Clone the [scheduler-api](https://github.com/Joe123123/scheduler-api) setup the server.
 
 ## Running Webpack Development Server
 
@@ -36,6 +40,12 @@ npm test
 npm run storybook
 ```
 
+## Running Cypress
+
+```sh
+npm run cypress
+```
+
 ## Stack
 
 - React
@@ -43,5 +53,9 @@ npm run storybook
 - WebSockets
 - Storybook
 - Jest
+- Cypress
 - Node.JS
 - Axios
+- Heroku
+- Netlify
+- CircleCI
