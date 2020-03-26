@@ -20,7 +20,7 @@ Realtime updating
 ## Setup
 
 1. Install dependencies using the `npm install` command.
-2. Clone the [scheduler-api](https://github.com/Joe123123/scheduler-api) setup the server.
+2. Clone the [scheduler-api](https://github.com/Joe123123/scheduler-api) and setup the server.
 
 ## Running Webpack Development Server
 
